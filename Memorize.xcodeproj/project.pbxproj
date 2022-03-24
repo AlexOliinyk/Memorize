@@ -11,6 +11,7 @@
 		1173968C27E4FA7E00361B56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1173968B27E4FA7E00361B56 /* ContentView.swift */; };
 		1173968E27E4FA8000361B56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1173968D27E4FA8000361B56 /* Assets.xcassets */; };
 		1173969127E4FA8000361B56 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1173969027E4FA8000361B56 /* Preview Assets.xcassets */; };
+		117D59F727ECCE5B0060B69C /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D59F627ECCE5B0060B69C /* MemoryGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1173968B27E4FA7E00361B56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1173968D27E4FA8000361B56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1173969027E4FA8000361B56 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		117D59F627ECCE5B0060B69C /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		1173968827E4FA7E00361B56 /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
+				117D59F627ECCE5B0060B69C /* MemoryGame.swift */,
 				1173968927E4FA7E00361B56 /* MemorizeApp.swift */,
 				1173968B27E4FA7E00361B56 /* ContentView.swift */,
 				1173968D27E4FA8000361B56 /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				117D59F727ECCE5B0060B69C /* MemoryGame.swift in Sources */,
 				1173968C27E4FA7E00361B56 /* ContentView.swift in Sources */,
 				1173968A27E4FA7E00361B56 /* MemorizeApp.swift in Sources */,
 			);
@@ -195,7 +199,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +253,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
